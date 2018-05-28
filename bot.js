@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'What do you need to make a Rainbow?') {
+    if (message.content === 'What do you need to make a rainbow?') {
     	message.reply('You cant have a rainbow without Reyn Baby!');
   	}
 });
