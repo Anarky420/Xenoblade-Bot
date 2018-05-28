@@ -9,6 +9,9 @@ client.on('message', message => {
     if (message.content === 'What do you need to make a rainbow?') {
     	message.reply('cant have a rainbow without Reyn Baby!');
   	}
+client.on('message', message => {
+    if (message.content === 'Poor Reyn') {
+    	message.reply('Reyn smelly Orluga');
 });
 
 // THIS  MUST  BE  THIS  WAY
