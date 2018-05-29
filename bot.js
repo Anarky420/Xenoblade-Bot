@@ -29,5 +29,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Help') {
+    	message.reply('If you need a list of commands, DM @Anarky420#3445');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
