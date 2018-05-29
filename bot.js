@@ -11,5 +11,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Dunban Talent Art') {
+    	message.reply('Born in a world of strife, Against the odds, We choose to fight, Blossom Dance!');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
