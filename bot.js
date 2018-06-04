@@ -53,5 +53,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Today...') {
+    	message.channel.send('We used our powers, to fell a god, then, seize our destinies!');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
