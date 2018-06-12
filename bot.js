@@ -48,6 +48,12 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === ' :b: ') {
+    	message.channel.send(' :b: ');
+  	}
+});
+
+client.on('message', message => {
     if (message.content === 'That feeling when your bot has a higher role than you') {
     	message.channel.send('lel i got a higher role than my creator');
   	}
