@@ -48,7 +48,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === ' :b: ') {
+    if (message.content === 'b') {
     	message.channel.send(' :b: ');
   	}
 });
