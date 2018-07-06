@@ -54,8 +54,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'That feeling when your bot has a higher role than you') {
-    	message.channel.send('lel i got a higher role than my creator');
+    if (message.content === 'Best Aegis') {
+    	message.channel.send('https://vignette.wikia.nocookie.net/xenoblade/images/5/56/Mythra-portrait.png/revision/latest/scale-to-width-down/350?cb=20171222071213');
   	}
 });
 
