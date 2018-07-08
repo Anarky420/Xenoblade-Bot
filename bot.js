@@ -65,5 +65,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Worst Youtuber') {
+    	message.channel.send('https://i.ytimg.com/vi/82pMXa5EZcc/maxresdefault.jpg');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
