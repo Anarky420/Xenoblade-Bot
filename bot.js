@@ -71,5 +71,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Worst Aegis') {
+    	message.channel.send('https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjMxMrMwZbcAhUEurwKHVsPBW0QjRx6BAgBEAU&url=http%3A%2F%2Fxenoblade.wikia.com%2Fwiki%2FPyra&psig=AOvVaw2JkU9HFdMb4N9I0jg3Xn7o&ust=1531380024445746');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
